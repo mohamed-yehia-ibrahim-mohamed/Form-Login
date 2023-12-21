@@ -1,0 +1,94 @@
+/* Google-font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Genral-Rules */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Image/pexels-iva-muškić-691710.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-y;
+    
+}
+
+
+/* this is a container div */
+.login {
+    position: relative;
+    background-color: #ffff;
+    border: 1px solid #0000;
+    width: 340px;
+    top: -40%;
+    transform: translateY(40%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.box label {
+    font-size: 12px;
+}
+
+/* All input in the login form */
+.box input {
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #000;
+}
+
+
+.box .btn {
+    background-color: #000;
+    color: #ffff;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+/* it's a quetions */
+a {
+    font-size: 11px;
+    color: #000;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+/* Small icons */
+.social {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item  {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.item:hover {
+    background-color: #000;
+    color: #ffff;
+    cursor: pointer;
+}
+
+i {
+    font-size: 17px;
+}
